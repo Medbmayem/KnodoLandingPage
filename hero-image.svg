@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D6EFD;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#0D6EFD;stop-opacity:0.05" />
+    </linearGradient>
+    <clipPath id="clip1">
+      <rect x="50" y="100" width="700" height="400" rx="20" />
+    </clipPath>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Main background shape -->
+  <rect x="50" y="100" width="700" height="400" rx="20" fill="url(#grad1)"/>
+  
+  <!-- Abstract shapes -->
+  <g clip-path="url(#clip1)">
+    <circle cx="150" cy="150" r="100" fill="#0D6EFD" opacity="0.1"/>
+    <circle cx="650" cy="450" r="120" fill="#0D6EFD" opacity="0.1"/>
+    <path d="M-100,300 C100,200 300,400 500,300 S700,200 900,300" stroke="#0D6EFD" stroke-width="15" opacity="0.2" fill="none"/>
+    <path d="M-100,350 C100,250 300,450 500,350 S700,250 900,350" stroke="#0D6EFD" stroke-width="10" opacity="0.15" fill="none"/>
+  </g>
+  
+  <!-- Business elements -->
+  <g transform="translate(400, 300)">
+    <!-- Laptop -->
+    <rect x="-80" y="-40" width="160" height="100" rx="5" fill="#212529"/>
+    <rect x="-75" y="-35" width="150" height="85" fill="#FFFFFF"/>
+    <rect x="-100" y="60" width="200" height="10" rx="5" fill="#212529"/>
+    
+    <!-- Charts and data visualization -->
+    <g transform="translate(-40, -10) scale(0.7)">
+      <rect x="0" y="0" width="10" height="40" fill="#0D6EFD"/>
+      <rect x="15" y="10" width="10" height="30" fill="#0D6EFD" opacity="0.8"/>
+      <rect x="30" y="20" width="10" height="20" fill="#0D6EFD" opacity="0.6"/>
+      <rect x="45" y="5" width="10" height="35" fill="#0D6EFD" opacity="0.9"/>
+      <rect x="60" y="15" width="10" height="25" fill="#0D6EFD" opacity="0.7"/>
+    </g>
+    
+    <!-- Connecting lines -->
+    <path d="M-150,-80 L-50,-30 M150,-80 L50,-30 M0,120 L0,70" stroke="#0D6EFD" stroke-width="3" stroke-dasharray="5,5" opacity="0.6"/>
+    
+    <!-- Skill icons -->
+    <circle cx="-150" cy="-80" r="25" fill="#FFFFFF" stroke="#0D6EFD" stroke-width="3"/>
+    <text x="-150" y="-75" font-family="Arial" font-size="20" text-anchor="middle" fill="#0D6EFD">AI</text>
+    
+    <circle cx="150" cy="-80" r="25" fill="#FFFFFF" stroke="#0D6EFD" stroke-width="3"/>
+    <text x="150" y="-75" font-family="Arial" font-size="20" text-anchor="middle" fill="#0D6EFD">Data</text>
+    
+    <circle cx="0" cy="120" r="25" fill="#FFFFFF" stroke="#0D6EFD" stroke-width="3"/>
+    <text x="0" y="125" font-family="Arial" font-size="16" text-anchor="middle" fill="#0D6EFD">Skills</text>
+  </g>
+  
+  <!-- Checkmark symbol (inspired by Knodo logo) -->
+  <g transform="translate(650, 150) scale(0.8)">
+    <circle cx="0" cy="0" r="40" fill="#0D6EFD"/>
+    <path d="M-15,0 L-5,10 L15,-10" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="0" cy="20" r="5" fill="#FFFFFF"/>
+  </g>
+</svg>

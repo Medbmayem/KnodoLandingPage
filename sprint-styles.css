@@ -1,0 +1,32 @@
+.sprint-card {
+  background-color: var(--light-gray);
+  border-radius: var(--border-radius);
+  padding: 25px;
+  height: 100%;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.sprint-card:hover {
+  transform: translateY(-5px);
+}
+
+.sprint-icon {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.sprint-card h5 {
+  margin-bottom: 15px;
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.sprint-card p {
+  font-size: 0.95rem;
+  text-align: left;
+}
